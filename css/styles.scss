@@ -58,23 +58,24 @@
     line-height: 3em;
   }
   
-  h2 {
+  h1 {
     margin: 0 0 20px 0;
-    font-size: 35px;
+    font-size: 38px;
     font-family: 'Bad Script', cursive;
-    color: rgb(14, 10, 10);
+    color: #FFFFFF;
+    text-shadow: 0 0 15px rgba(255,255,255,.5), 0 0 10px rgba(255,255,255,.5);
     letter-spacing: 10px;
-    font-weight: 600;
-    text-shadow: 0 4px 7px rgba(233, 225, 225, 0.4), 0px 8px 13px rgba(226, 220, 220, 0.1),
-      0px 18px 23px rgba(241, 225, 225, 0.1);
+    font-weight: 900;
+    text-shadow: 0 4px 7px rgba(15, 14, 14, 0.4);
   }
   
-  h4 {
+  h3 {
     opacity: 0.8;
-    font-size: 35px;
+    font-size: 38px;
     font-family: 'Bad Script', cursive;
-    font-weight: 600;
-    color: rgb(14, 10, 10);
+    font-weight: 900;
+    color: #FFFFFF;
+    text-shadow: 0 0 15px rgba(255,255,255,.5), 0 0 10px rgba(255,255,255,.5);
     text-align: center;
   }
   
@@ -278,6 +279,12 @@
     .Banner {
       padding: 10px 10px;
     }
+
+    // .maintext {
+    //   font-size: 20px;
+    //   color: bisque;
+    //   font-weight: 700;
+    // }
   
     .text {
       padding: 10px 0 10px 20px;
@@ -291,6 +298,10 @@
     #story {
       margin: 0;
     }
+
+    // .reservation {
+    //   margin: 350px 0 50px 0;
+    // }
   
     /* menu styles */
     .menus {
@@ -347,6 +358,14 @@
       background-size: cover;
     }
   
+    .nav1 {
+      display: inline;
+      align-items: space-around;
+    }
+
+    .nav {
+      color: antiquewhite;
+    }
     /* story styles */
   
     .Banner {
@@ -365,16 +384,34 @@
       width: 100%;
       padding: 0;
     }
+
+    // .h2 {
+    //   font-size: 30px;
+    //   color: bisque;
+    //   font-weight: 700;
+    // }
+
+    // .h4 {
+    //   font-size: 30px;
+    //   color: bisque;
+    //   font-weight: 700;
+    // }
+
+    .maintext {
+      font-size: 30px;
+      color: bisque;
+      font-weight: 700;
+    }
+
+    .reservation {
+      margin: 200px 50px 0 0;
+    }
   
     /* menu styles */
     .menus {
       grid-template-columns: repeat(auto-fit, 600px);
       grid-template-rows: repeat(3, 600px);
       grid-gap: 20px;
-    }
-  
-    h3 {
-      font-size: 2em;
     }
   
     /* footer styles */
@@ -406,6 +443,7 @@
     }
     .inline {
       display: block;
+      justify-content: space-around;
     }
   }
   

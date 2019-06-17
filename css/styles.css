@@ -54,22 +54,24 @@ body {
   line-height: 3em;
 }
 
-h2 {
+h1 {
   margin: 0 0 20px 0;
-  font-size: 35px;
+  font-size: 38px;
   font-family: "Bad Script", cursive;
-  color: #0e0a0a;
+  color: #FFFFFF;
+  text-shadow: 0 0 15px rgba(255, 255, 255, 0.5), 0 0 10px rgba(255, 255, 255, 0.5);
   letter-spacing: 10px;
-  font-weight: 600;
-  text-shadow: 0 4px 7px rgba(233, 225, 225, 0.4), 0px 8px 13px rgba(226, 220, 220, 0.1), 0px 18px 23px rgba(241, 225, 225, 0.1);
+  font-weight: 900;
+  text-shadow: 0 4px 7px rgba(15, 14, 14, 0.4);
 }
 
-h4 {
+h3 {
   opacity: 0.8;
-  font-size: 35px;
+  font-size: 38px;
   font-family: "Bad Script", cursive;
-  font-weight: 600;
-  color: #0e0a0a;
+  font-weight: 900;
+  color: #FFFFFF;
+  text-shadow: 0 0 15px rgba(255, 255, 255, 0.5), 0 0 10px rgba(255, 255, 255, 0.5);
   text-align: center;
 }
 
@@ -338,6 +340,15 @@ li {
     background-size: cover;
   }
 
+  .nav1 {
+    display: inline;
+    align-items: space-around;
+  }
+
+  .nav {
+    color: antiquewhite;
+  }
+
   /* story styles */
   .Banner {
     padding: 0 200px;
@@ -356,15 +367,21 @@ li {
     padding: 0;
   }
 
+  .maintext {
+    font-size: 30px;
+    color: bisque;
+    font-weight: 700;
+  }
+
+  .reservation {
+    margin: 200px 50px 0 0;
+  }
+
   /* menu styles */
   .menus {
     grid-template-columns: repeat(auto-fit, 600px);
     grid-template-rows: repeat(3, 600px);
     grid-gap: 20px;
-  }
-
-  h3 {
-    font-size: 2em;
   }
 
   /* footer styles */
@@ -402,6 +419,7 @@ li {
 
   .inline {
     display: block;
+    justify-content: space-around;
   }
 }
 
